@@ -1,5 +1,9 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  uPortMobile-Bridging-Header.h
+//  uPortMobile
+//
+//  Created by Ryan Robison on 2/17/19.
+//  Copyright © 2019 Facebook. All rights reserved.
 //
 
-#import <React/RCTBridgeModule.h>
+#import "React/RCTBridgeModule.h"
