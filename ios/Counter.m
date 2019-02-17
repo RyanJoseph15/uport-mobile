@@ -10,7 +10,8 @@
 
 @interface RCT_EXTERN_MODULE(Counter, NSObject)
 
-RCT_EXTERN_METHOD(increment)
-RCT_EXTERN_METHOD(getCount: (RCTResponseSenderBlock)callback)
+RCT_EXTERN_METHOD(getAddress: (RCTResponseSenderBlock)callback)
+RCT_EXTERN_METHOD(loadOnStartUp)
+RCT_EXTERN_METHOD(setAddress: ([UInt8])add)
 
 @end

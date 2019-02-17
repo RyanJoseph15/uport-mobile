@@ -1,6 +1,0 @@
-framework module XyBleSdk {
-  umbrella header "XyBleSdk-umbrella.h"
-
-  export *
-  module * { export * }
-}

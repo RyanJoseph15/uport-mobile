@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '11.0'
 use_frameworks!
 
 target 'uPortMobile' do
@@ -17,6 +17,11 @@ target 'uPortMobile' do
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod 'Firebase/RemoteConfig'
+  pod 'Promises'
+  pod 'XyBleSdk', :path => '../XYO/XYObleInterface/'
+  pod 'mod-ble-swift', :path => '../XYO/sdk-ble-swift/'
+  pod 'sdk-objectmodel-swift', '~> 0.1.2-beta.0'
+  pod 'sdk-core-swift', '~> 0.1.2-beta.2'
   
   target 'uPortMobileTests' do
     inherit! :search_paths
