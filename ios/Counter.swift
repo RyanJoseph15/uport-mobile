@@ -122,10 +122,10 @@ class Counter: NSObject, XYSmartScanDelegate, XyoHueresticGetter {
     NSLog("count is %S", count)
   }
   
-  @objc
-  func getAddress(_ callback: RCTResponseSenderBlock) {
-    callback([id])
-  }
+//  @objc
+//  func getAddress(_ callback: RCTResponseSenderBlock) {
+//    callback([id])
+//  }
   
   @objc
   func setAddress(add : [UInt8]) {
