@@ -1,0 +1,6 @@
+framework module mod_ble_swift {
+  umbrella header "mod-ble-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

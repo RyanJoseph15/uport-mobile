@@ -1,0 +1,6 @@
+framework module sdk_core_swift {
+  umbrella header "sdk-core-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
